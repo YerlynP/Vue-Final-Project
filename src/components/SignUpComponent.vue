@@ -11,16 +11,17 @@
       >
         <div class="splitdiv" id="leftdiv">
           <div id="leftdivcard">
-            <h1 style="padding-top: 20px; text-align: center">Sign In</h1>
-            <input type="email" placeholder="Username" />
+            <h1 style="padding-top: 20px; text-align: center">Sign Up</h1>
+            <input type="Username" placeholder="Username" />
+            <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
             <div style="text-align: center">
               <button
                 id="leftbutton"
                 class="ripple2"
-                @click="$router.push('/stories')"
+                @click="$router.push('/')"
               >
-                Login
+                Sign-up
               </button>
             </div>
           </div>
@@ -44,15 +45,15 @@
               Welcome to MOODify!
             </h1>
             <p style="color: white; text-align: center">
-              No account yet? Sign up now for free!
+              Already have an account? Sign-in now!
             </p>
             <div style="text-align: center">
               <button
                 id="rightbutton"
                 class="ripple"
-                @click="$router.push('/signup')"
+                @click="$router.push('/')"
               >
-                Sign Up
+                Sign In
               </button>
             </div>
           </div>
@@ -185,10 +186,10 @@ button {
 /* ----------------------------------------- */
 
 /* Animation for the buttons from 
-
-https://codepen.io/finnhvman/pen/jLXKJw
-
-*/
+  
+  https://codepen.io/finnhvman/pen/jLXKJw
+  
+  */
 
 .ripple {
   background-position: center;
